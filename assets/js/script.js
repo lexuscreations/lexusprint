@@ -1,6 +1,10 @@
 const swiper = new Swiper(".projectsContainer", {
     effect: "coverflow",
     grabCursor: true,
+    autoplay: {
+     delay: 2500,
+     disableOnInteraction: false,
+    },
     centeredSlides: true,
     slidesPerView: "auto",
     loop: true,
